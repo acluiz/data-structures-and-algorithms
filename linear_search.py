@@ -8,7 +8,7 @@ def linear_search(list, target):
       print("Total runs: ", runs)
       return index
 
-  print("Total runs: ", len(list))
+  print("Total runs: ", runs)
   return None
 
 def log_target_position(target_index):
