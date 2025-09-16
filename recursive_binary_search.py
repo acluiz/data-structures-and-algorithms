@@ -6,15 +6,16 @@ def recursive_binary_search(list, target):
 
   if list[midpoint] == target:
     return True
-  elif list[midpoint] > target:    
+
+  if list[midpoint] > target:    
     return recursive_binary_search(list[:midpoint], target)
   else:
     return recursive_binary_search(list[midpoint:], target)
   
 
-def log_target_position(target_index):
-  if target_index:
-    print("Target found ", target_index)
+def log_target_position(is_target_found):
+  if is_target_found:
+    print("Target found")
   else:
     print("Target not found")
 
