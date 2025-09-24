@@ -1,6 +1,10 @@
 # Data Structures & Algorithms
 
-To run a file:
+To run an algorithm:
+
+```
+cd algorithms
+```
 
 ```
 python3 {file_name}
