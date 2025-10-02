@@ -1,11 +1,7 @@
 # Data Structures & Algorithms
 
-To run an algorithm:
+### Running the code:
 
 ```
-cd algorithms
-```
-
-```
-python3 {file_name}
+PYTHONPATH=. python3 -i {folder}/{file_name}.py
 ```
