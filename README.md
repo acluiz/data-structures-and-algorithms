@@ -3,5 +3,5 @@
 ### Running the code:
 
 ```
-PYTHONPATH=. python3 -i {folder}/{file_name}.py
+python3 {folder}/{file_name}.py
 ```
